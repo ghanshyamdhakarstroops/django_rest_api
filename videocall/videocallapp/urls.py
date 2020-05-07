@@ -25,5 +25,5 @@ urlpatterns=format_suffix_patterns([
 	path('users/<int:pk>/', user_detail, name='user-detail'),
 	path('hero/', hero_list, name='hero-list'),
 	path('users/', user_list, name='user-list'),
-	path('', views.api_root),
+	path('', api_root),
 ])
